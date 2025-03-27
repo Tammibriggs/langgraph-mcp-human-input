@@ -1,0 +1,13 @@
+[project]
+name = "hitl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.21",
+    "langchain-google-genai>=2.1.1",
+    "langchain-mcp-adapters>=0.0.5",
+    "langgraph>=0.3.20",
+    "mcp>=1.4.1",
+]
